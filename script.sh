@@ -9,10 +9,10 @@ then
     terraform $choice
 elif [ $choice == "apply" ]
 then
-    terraform $choice
+    terraform $choice -auto-approve
 elif [ $choice == "destroy" ]
 then
-    terraform $choice
+    terraform $choice -auto-approve
 else
     echo "$choice is an invalid input, try again..."
     exit
