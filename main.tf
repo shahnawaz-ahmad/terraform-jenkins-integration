@@ -1,5 +1,5 @@
 resource "local_file" pet {
-    filename = "/home/osboxes/codeplayground/terraform-jenkins-integration/pets.txt"
+    filename = "/home/osboxes/.jenkins/workspace/TerraformJenkinsIntegrationDemo/pets.txt"
     content = "We love pets!"
 }
 
