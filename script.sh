@@ -6,7 +6,7 @@ cd $WORK_DIR
 terraform init
 choice=$1
 
-if [ $choice == "plan"]; then
+if [ $choice == "plan" ]; then
   terraform $choice
 elif [ $choice == "apply" ]; then
   terraform $choice -auto-approve
