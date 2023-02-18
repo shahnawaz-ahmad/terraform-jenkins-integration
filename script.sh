@@ -1,7 +1,6 @@
 #!/bin/bash
 
-WORK_DIR=$PWD/TerraformJenkinsIntegrationDemo
-cd $WORK_DIR
+cd $PWD
 
 terraform init
 choice=$1
